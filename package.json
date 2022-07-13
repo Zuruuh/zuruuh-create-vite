@@ -1,8 +1,9 @@
 {
-  "name": "@zuruuh/create-vite",
+  "name": "zuruuh-create-vite",
   "description": "Create custom vite project with tools I regularly use",
   "version": "1.0.0",
   "author": "Zuruh <ziadi.mail.pro@gmail.com>",
+  "private": false,
   "scripts": {
     "build": "tsup src/cli.ts --minify",
     "clean": "shx rm -rf lib",
